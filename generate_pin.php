@@ -20,10 +20,10 @@ function send_email_to_user($txtEmail, $txtcname, $txtrc,$txtpassword,$numL)
 	$mail->SMTPSecure = 'tls';
 	$mail->SMTPAuth = true;
 	//$mail->Username = "aabdulraheemsherif@gmail.com";
-	//$mail->Password = "sherif419419";
+	//$mail->Password = "your email password";
 	//$mail->setFrom('aabdulraheemsherif@gmail.com', 'Federal Inland Revenue Service');
 	$mail->Username = "mbilikisu10@gmail.com";
-	$mail->Password = "ishaq1994";
+	$mail->Password = "your email password";
 	$mail->setFrom('mbilikisu10@gmail.com', 'Federal Inland Revenue Service');
 	$mail->addAddress($txtEmail, $txtcname);
 	$mail->Subject = 'FIRS APPLICATION';
